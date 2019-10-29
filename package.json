@@ -1,0 +1,29 @@
+{
+    "name": "speex_interface",
+    "description": "Asynchronous, non-blocking SQLite3 bindings",
+    "version": "0.0.1",
+    "homepage": "https://github.com/lihn1011/speex_interface",
+    "author": {
+      "name": "lihn1011",
+      "url": "https://github.com/lihn1011"
+    },
+    "contributors": [
+      "lihn <lihn@gmail.com>"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/lihn1011/speex_interface.git"
+    },
+    "dependencies": {
+        "nan": "^2.14.0"
+      },
+    "scripts": {
+        "configure": "node-gyp configure",
+        "build": "node-gyp build",
+        "rebuild": "node-gyp rebuild"
+    },
+    "license": "BSD-3-Clause",
+    "keywords": [
+      "speexs"
+    ]
+  }

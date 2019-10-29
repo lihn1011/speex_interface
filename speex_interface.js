@@ -1,0 +1,1 @@
+module.exports = require('./build/Release/speex_interface');
